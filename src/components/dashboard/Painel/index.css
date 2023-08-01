@@ -1,6 +1,7 @@
 .wrapper-painel {
   background-color: var(--clr-grey-9);
   padding: 3rem 3rem;
+  overflow-y: scroll;
 }
 
 .top {

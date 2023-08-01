@@ -48,7 +48,7 @@
 }
 body {
   font-family: 'Roboto', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  background: var(--clr-grey-10);
+  background-color: var(--clr-grey-9);
   color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: 0.875rem;
