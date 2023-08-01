@@ -5,7 +5,7 @@ export interface IUser {
 }
 
 export const user = {
-  img: 'src/assets/images/perfil.jpg',
+  img: '/images/perfil.jpg',
   name: 'Usuário de Teste',
   email: 'teste@teste.com.br',
 };
