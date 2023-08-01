@@ -1,0 +1,46 @@
+.content-perfil {
+  display: grid;
+  gap: 0.3rem;
+  position: absolute;
+  justify-content: center;
+  bottom: 2rem;
+  width: 100%;
+}
+
+.img {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.img img {
+  width: 4rem;
+  height: 4rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.name {
+  color: var(--clr-grey-2);
+  font-weight: bold;
+}
+
+.email {
+  color: var(--clr-grey-6);
+}
+
+@media (max-width: 1000px) {
+  .img {
+    height: 2.8rem;
+    width: 2.8rem;
+    margin-left: 0.5rem;
+  }
+
+  .img img {
+    height: 2.8rem;
+    width: 2.8rem;
+  }
+}

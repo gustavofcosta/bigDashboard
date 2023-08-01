@@ -1,0 +1,37 @@
+.wrapper-painel {
+  background-color: var(--clr-grey-9);
+  padding: 3rem 3rem;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon {
+  font-size: 1.5rem;
+  border: 1px solid var(--clr-grey-8);
+  padding: 0.8rem;
+  margin: 1rem;
+  border-radius: var(--radius);
+  transition: var(--transition);
+}
+
+.icon:hover {
+  cursor: pointer;
+  background-color: var(--clr-black);
+  border: 1px solid var(--clr-white);
+  color: var(--clr-white);
+}
+
+@media (max-width: 1000px) {
+  .wrapper-painel {
+    font-size: 0.8rem;
+  }
+
+  .icon {
+    padding: 0.5;
+    font-size: 1rem;
+  }
+}

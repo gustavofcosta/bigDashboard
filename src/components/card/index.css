@@ -1,0 +1,9 @@
+.content {
+  display: grid;
+  gap: 1rem;
+  border: 1px solid var(--clr-grey-9);
+  box-shadow: var(--light-shadow);
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: var(--clr-white);
+}
